@@ -17,7 +17,7 @@ namespace FirstTest_HaikuTests
 
             ResultOfParsingHaiku result = new HaikuParser(new SyllableCounter(), new Mock<IConsoleWrapper>().Object).ParseHaiku(input);
 
-            result.ToString().Should().Be("5,7,5,y");
+            result.ToString().Should().Be("5,7,5,Yes");
         }
 
         [TestCase]
@@ -27,7 +27,7 @@ namespace FirstTest_HaikuTests
 
             ResultOfParsingHaiku result = new HaikuParser(new SyllableCounter(), new Mock<IConsoleWrapper>().Object).ParseHaiku(input);
 
-            result.ToString().Should().Be("6,7,5,n");
+            result.ToString().Should().Be("6,7,5,No");
         }
 
         [TestCase]
@@ -37,7 +37,7 @@ namespace FirstTest_HaikuTests
 
             ResultOfParsingHaiku result = new HaikuParser(new SyllableCounter(), new Mock<IConsoleWrapper>().Object).ParseHaiku(input);
 
-            result.ToString().Should().Be("5,n");
+            result.ToString().Should().Be("5,No");
         }
 
         [TestCase]
@@ -47,7 +47,7 @@ namespace FirstTest_HaikuTests
 
             ResultOfParsingHaiku result = new HaikuParser(new SyllableCounter(), new Mock<IConsoleWrapper>().Object).ParseHaiku(input);
 
-            result.ToString().Should().Be("n");
+            result.ToString().Should().Be("No");
         }
 
         [TestCase]
@@ -60,7 +60,7 @@ namespace FirstTest_HaikuTests
 
             new HaikuParser(new SyllableCounter(), mockOfConsoleWrapper.Object).ParseHaikus(input);
 
-            mockOfConsoleWrapper.Verify(x => x.WriteLine("5,7,5,y"), Times.Exactly(2));
+            mockOfConsoleWrapper.Verify(x => x.WriteLine("5,7,5,Yes"), Times.Exactly(2));
         }
 
         [TestCase]

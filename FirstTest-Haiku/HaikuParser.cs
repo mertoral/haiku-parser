@@ -74,7 +74,7 @@ namespace FirstTest_Haiku
                 builder.Append($"{syllableCount},");
             }
 
-            builder.Append(IsHaiku ? "y" : "n");
+            builder.Append(IsHaiku ? "Yes" : "No");
 
             return builder.ToString();
         }

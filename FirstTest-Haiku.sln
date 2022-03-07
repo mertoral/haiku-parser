@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstTest-Haiku", "FirstTest-Haiku\FirstTest-Haiku.csproj", "{741E3A48-6668-4E98-862D-6DF658C007E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstTest-HaikuTests", "FirstTest-HaikuTests\FirstTest-HaikuTests.csproj", "{EF1B940F-AC43-4A90-BB5D-F35C13B3E648}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1DA53FCC-0E6C-4068-A6E8-96128E749655}"
+	ProjectSection(SolutionItems) = preProject
+		Instructions.md = Instructions.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{741E3A48-6668-4E98-862D-6DF658C007E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{741E3A48-6668-4E98-862D-6DF658C007E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{741E3A48-6668-4E98-862D-6DF658C007E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{741E3A48-6668-4E98-862D-6DF658C007E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF1B940F-AC43-4A90-BB5D-F35C13B3E648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF1B940F-AC43-4A90-BB5D-F35C13B3E648}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF1B940F-AC43-4A90-BB5D-F35C13B3E648}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF1B940F-AC43-4A90-BB5D-F35C13B3E648}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47846B6F-13B5-4992-80CF-D950F79374DC}
+	EndGlobalSection
+EndGlobal
